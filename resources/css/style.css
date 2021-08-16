@@ -74,6 +74,7 @@ h3 {
     font-size: 2.4rem;
     text-transform: uppercase;
     font-weight: 600;
+    color: #fff;
 }
 
 .box {
@@ -209,4 +210,64 @@ header {
     height: 12rem;
     margin-top: 4rem;
     margin-bottom: 3.5;
+}
+
+/* =============== */
+/* team section */
+/* =============== */
+.team-section {
+    text-align: center;
+    background: linear-gradient(rgba(231, 241, 248, 0.9),rgba(231, 241, 248, 0.9)), url(img/team-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.team-section h2 {
+    color: #3c4761;
+}
+
+.team-section h2::after {
+    background: #c8d9e5;
+} 
+.team-member {
+    margin-top: 4.5rem;
+    margin-top: 3.5rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+.team-section h3 {
+    color: #27283d;
+}
+.role {
+    color: #30bae7;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+.social-link {
+    margin-top: 4.5rem;
+}
+.social-link ul li {
+    display: inline-block;
+    margin: 0 .5rem;
+}
+.social-link ul li a {
+    color: #fff;
+}
+.social-link ul li a:link i:before {
+    background: #bdd1df;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: .5s;
+}
+.social-link ul li a:hover i:before {
+    background: #393939;
+    transform: rotate(360deg);
 }
