@@ -9,6 +9,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -25,16 +26,6 @@ h1 {
     font-size: 4.2rem;
     color: #fff;
 }
-
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-    height: 0;
-    visibility: hidden;
-}
-
-
 
 /* =============== */
 /* reusable components */
@@ -75,6 +66,13 @@ h3 {
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
+}
+
+h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
 }
 
 .box {
@@ -246,6 +244,7 @@ header {
     font-size: 1.6rem;
     text-transform: capitalize;
     margin-top: 1rem;
+    display: inline-block;
 }
 .social-link {
     margin-top: 4.5rem;
@@ -270,4 +269,75 @@ header {
 .social-link ul li a:hover i:before {
     background: #393939;
     transform: rotate(360deg);
+}
+
+/* =============== */
+/* skill section */
+/* =============== */
+.skill-section {
+    
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url(img/skill-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill-section h2, h3, p {
+    color: #3c4761;
+}
+
+.skill-section h2::after {
+    background: #dfe8ed;
+}
+
+.circlechart {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+/* =============== */
+/* skill section */
+/* =============== */
+.portfolio-section {
+    background: linear-gradient(rgba(255, 221, 153, 0.9), rgba(255, 221, 153, 0.9)), url(img/portfolio-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    color: #393939;
+}
+
+.portfolio-section h2::after {
+    background: #e5c37f;
+}
+
+.portfolio-filter {
+    margin: 4.5rem 0;
+}
+.portfolio-filter button {
+    background: #ebc985;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    color: #393939;
+    margin: 0 .5rem;
+    transition: .5s;
+}
+.portfolio-filter button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 .3rem .5rem rgba(57, 57, 57, 0.5);
+}
+.portfolio-section .btn-load-more {
+    background: #17c2a4;
+    border-color: #14a58c;
+}
+
+.portfolio-section .mixitup-control-active {
+    background: #fff;
 }
