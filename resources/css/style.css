@@ -341,3 +341,44 @@ header {
 .portfolio-section .mixitup-control-active {
     background: #fff;
 }
+
+/* =============== */
+/* testimonial section */
+/* =============== */
+
+.testimonial {
+    background:linear-gradient(rgba(215, 70, 128, 0.9),rgba(215, 70, 128, 0.9)), url(img/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.testimonial .little-description {
+    text-align: center;
+    color: #fff;
+}
+
+.client-photo {
+    width: 10rem;
+    float: left;
+}
+
+.client-photo img {
+    height: 8rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+.client-review {
+    width: 30rem;
+}
+
+.client-review p, h3 {
+    color: #fff;
+}
+
+.client-review span {
+    color: #fac996;
+}
+.role {
+    margin-left: 10rem
+}
