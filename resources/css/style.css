@@ -384,9 +384,52 @@ header {
 }
 
 /* =============== */
-/* testimonial section */
+/* contact section */
 /* =============== */
 
 .contact-section {
-    
+    background: linear-gradient(rgba(52, 75, 142, 0.9), rgba(52, 75, 142, 0.9)), url(img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+}
+
+.contact-section h2::after {
+    background: #273a71;
+}
+
+.contact-section .little-description {
+    color: #fff;
+}
+
+.contact-section form {
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
+}
+.contact-section .form-area {
+    background-color: #273a71;
+    border: .1rem solid #273a71;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    margin: .5rem 0; 
+}
+
+.contact-section form ::placeholder {
+    color: #fff;
+}
+
+.btn-submit {
+    border: 0;
+    border: .3rem solid #299ec5;
+    background: #30bae7;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
 }

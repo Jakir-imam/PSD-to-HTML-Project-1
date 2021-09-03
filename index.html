@@ -286,20 +286,21 @@
          <form action="#" method="POST">
             <div class="row">
                <div class="col span_1_of_2">
-                  <input type="text" name="Name" placeholder="Your Name *" required>
+                  <input class="form-area" type="text" name="Name" placeholder="Your Name *" required>
                </div>
                <div class="col span_1_of_2">
-                  <input type="email" name="Email" placeholder="Your Email *" required>
+                  <input class="form-area" type="email" name="Email" placeholder="Your Email *" required>
                </div>
+            </div>
+            <div class="row">
+               <textarea class="form-area" name="Message" cols="30" rows="10" placeholder="Your Message *" required></textarea>
+            </div>
+            <div class="row">
+                <input type="submit" value="SEND MESSAGE" class="btn btn-submit">
             </div>
          </form>
       </div>
-      <div class="row">
-         <textarea name="Message" cols="30" rows="10" placeholder="Your Message *" required></textarea>
-      </div>
-      <div class="row">
-         <input type="submit" value="SEND MESSAGE" class="btn btn-submit">
-      </div>
+      
    </section>
 
    <!-- contact section end -->
