@@ -433,3 +433,32 @@ header {
 .btn-submit:hover {
     cursor: pointer;
 }
+
+/* =============== */
+/* footer section */
+/* =============== */
+
+footer {
+    background: #344b8e;
+    padding: 3rem 0;
+    text-align: center;
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+footer li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2.4rem;
+}
+
+footer li:hover a {
+    color: #30bae7;
+    
+}
