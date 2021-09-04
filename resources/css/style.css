@@ -169,6 +169,24 @@ header {
     background: rgba(100, 58, 121, 1.0);
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(135, 80, 156, 0.9);
+    padding: 1rem 0;
+    box-shadow: 0.2rem 0.5rem 0 rgba(255, 255, 255, 0.2);
+}
+
+.sticky .logo {
+    margin-top: 0;
+}
+
+.sticky .main-nav {
+    margin-top: .2rem;
+}
+
 .active {
     background: rgba(100, 58, 121, 1.0);
 }
