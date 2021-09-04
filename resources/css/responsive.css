@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1200px) {
+	header {
+		height: 65vh;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+
+	header {
+		height: 55vh;
+	}
+	.row {
+		margin: 0 15px;
+	}
+
+	.hero-text-box {
+		width: 90%;
+	}
+
+	.main-nav {
+		display: none;
+	}
+	html {
+		font-size: 57.5%;
+	}
+	.client-photo {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.client-review {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.role {
+		margin-left: 0;
+	}
+	.contact-section form {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.span_1_of_4 {
+		width: 49.2%;
+	}
+	.span_1_of_4:nth-child(3) {
+		margin-left: 0;
+	}
+	html {
+		font-size: 62.5%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	header{
+		height: 75vh;
+	}
+	.little-description {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 3.5rem;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	header {
+		height: 75vh;
+	}
+
+	.logo {
+
+	}
+	.span_1_of_4 {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+	header {
+		height: 75vh;
+	}
+
+	html {
+		font-size: 50%;
+	}
+}

@@ -135,6 +135,10 @@ header {
     float: left;
 }
 
+.hero-text-box {
+    width: 114rem;
+}
+
 /*main navigation*/
 
 .main-nav {
@@ -360,6 +364,11 @@ header {
     background: #fff;
 }
 
+.portfolio-image {
+    max-width: 100%;
+    height: auto;
+}
+
 /* =============== */
 /* testimonial section */
 /* =============== */
@@ -390,7 +399,7 @@ header {
     width: 30rem;
 }
 
-.client-review p, h3 {
+.client-review p,.client-review h3 {
     color: #fff;
 }
 
